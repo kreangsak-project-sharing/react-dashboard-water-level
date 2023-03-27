@@ -1,6 +1,6 @@
-# Dashboard monitor water level by Reactjs
+# Dashboard monitor water level by Reactjs + Nodejs
 
-On process
+This simple web dashboard for monitor water level get data from firebased reltime database, client (Reactjs) fetch data from backend server (Nodejs) by socket.io and backend server (Nodejs) fetch data from firebase realtime database
 
 ## Project photo
 
