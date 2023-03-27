@@ -4,7 +4,7 @@ On process
 
 ## Project photo
 
-<img alt="photo1" src="https://i.ibb.co/JC6NNJ9/Screenshot-14.png">
+<img alt="photo1" src="https://i.ibb.co/BfdZWcm/Screenshot-16.png">
 
 ## Other project
 
