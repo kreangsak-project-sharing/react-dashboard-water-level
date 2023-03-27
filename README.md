@@ -2,7 +2,7 @@
 
 This simple web dashboard for monitor water level, client (Reactjs) will fetch data from backend server (Nodejs) by socket.io and backend server (Nodejs) fetch data from firebase realtime database.
 
-## .ENV file
+## .ENV file for Serve
 
 ```
 NODE_ENV=production node index.js
