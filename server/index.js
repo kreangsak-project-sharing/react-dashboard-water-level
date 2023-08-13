@@ -1,6 +1,5 @@
 const express = require("express");
 const helmet = require("helmet");
-const bodyParser = require("body-parser");
 
 const http = require("http");
 const { Server } = require("socket.io");
@@ -15,8 +14,8 @@ const app = express();
 app.use(helmet());
 app.use(helmet.crossOriginResourcePolicy({ policy: "cross-origin" }));
 
-app.use(bodyParser.json());
-app.use(bodyParser.urlencoded({ extended: false }));
+app.use(express.json());
+app.use(express.urlencoded({ extended: false }));
 
 app.use(express.static(path.join(__dirname, "../client/build")));
 
